@@ -1,0 +1,22 @@
+<svg width="50" height="44" viewBox="0 0 50 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>logo</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-587 210)">
+<g id="logo">
+<use xlink:href="#path0_fill" transform="translate(587 -210)" fill="#2B2B2B"/>
+<use xlink:href="#path1_fill" transform="translate(587 -210)" fill="#2B2B2B"/>
+<use xlink:href="#path2_fill" transform="translate(587 -210)" fill="#2B2B2B"/>
+<use xlink:href="#path3_fill" transform="translate(587 -210)" fill="#2B2B2B"/>
+<use xlink:href="#path4_fill" transform="translate(587 -210)" fill="#2B2B2B"/>
+<use xlink:href="#path5_fill" transform="translate(587 -210)" fill="#2B2B2B"/>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 15.328 13.0843L 3.89241 1.63488L 2.0436 1.63488L 2.0436 15.5824L 3.89241 15.5824L 3.89241 4.83438L 14.5095 15.5824L 14.5106 15.5824L 15.328 13.0843Z"/>
+<path id="path1_fill" d="M 43.1566 3.14842L 47.6398 3.14842L 47.6398 1.63488L 36.8534 1.63488L 36.8534 3.14842L 41.327 3.14842L 41.327 15.5824L 43.1566 15.5824L 43.1566 3.14842Z"/>
+<path id="path2_fill" d="M 20.0315 20.0059L 13.3222 41.4169L 38.2541 41.4169L 35.6869 33.2244L 20.0315 20.0059Z"/>
+<path id="path3_fill" d="M 20.8268 17.4678L 34.3194 28.8601L 25.7882 1.63488L 20.8268 17.4678Z"/>
+<path id="path4_fill" d="M 45.8841 41.468L 38.6921 35.0136L 37.3297 30.9413L 45.9032 38.3164L 45.9032 27.5204L 47.7329 27.5204L 47.7329 41.468L 45.8841 41.468Z"/>
+<path id="path5_fill" d="M 8.45378 29.034L 12.9369 29.034L 12.9369 27.5204L 2.15057 27.5204L 2.15057 29.034L 6.62413 29.034L 6.62413 41.468L 8.45378 41.468L 8.45378 29.034Z"/>
+</defs>
+</svg>

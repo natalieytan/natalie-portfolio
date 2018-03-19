@@ -1,0 +1,367 @@
+:root {
+  font-size: 16px;
+}
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    line-height: 1.5;
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    color: #2B2B2B;
+  }
+
+  *, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    border-bottom: 1px solid #2b2b2b;
+    padding: 0px;
+    letter-spacing: 0.1em;
+    background: #FFFFFF;
+    opacity: 0.9;
+    z-index: 1;
+}
+
+nav > ul{
+  list-style: none;
+  width: 100%;
+  display: flex;
+  justify-content: space-around
+}
+
+nav li {
+  border-top: 0.5rem solid #FFFFFF;
+  padding-top: 0.5rem;
+  transition: 0.5s;
+}
+
+nav > ul img{
+  margin-bottom: 10px;
+}
+
+nav a {
+  text-align: center;
+  text-decoration: none;
+  color: #2B2B2B;
+}
+
+nav li:hover {
+  border-top: 0.5rem solid #F2F2F2;
+}
+section {
+  width: 90%;
+  min-height: 100vh;
+  padding: 3rem 0 3rem 0;
+  margin: 10rem auto 2rem auto;
+}
+
+.splash {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    padding: 0;
+}
+
+.logopath {
+    stroke-width: 1px;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    fill: transparent;
+    animation: dash 5s linear forwards, fill 3s, ease 1s; 
+  }
+  
+  @keyframes dash {
+    to {
+      fill: #2B2B2B;
+      stroke-dashoffset: 0;
+    }
+  }
+.typewriter {
+  text-align: center;
+  width: 100%;
+}
+
+.typewriter h1{
+  overflow: hidden; 
+  white-space: nowrap;
+  margin: 0 auto; 
+  letter-spacing: 0.6em; 
+  animation: typing 2.5s steps(40, end);
+  color: #BBC7B9;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+header {
+  padding-bottom: 1rem;
+  text-align: center;
+  margin: 3rem 0 3rem 0;
+}
+
+h2 {
+  color: #BBC7B9;
+  font-size: 2rem;
+  margin: 1.2rem 0 1.2rem 0;
+  letter-spacing: 0.1em;
+}
+
+h3 {
+  color: #BBC7B9;
+  font-size: 1.6rem;
+  letter-spacing: 0.1em;
+}
+
+h4 {
+  color: #2B2B2B;
+  font-size: 1.2rem;
+  letter-spacing: 0.1em;
+}
+
+.divider {
+  width: 2.2rem;
+  border-bottom: 5px solid #BBC7B9;
+  margin: auto;
+}
+
+
+.about-content {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+
+.about-content > div {
+  width: 50%;
+}
+
+.about-img {
+  background: url(/assets/img/natsquare.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+}
+
+
+.resume {
+  text-align: center;
+  background-image: url(/assets/img/greenclouds.svg); 
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #F2F2F2;
+}
+
+.about-text{
+  padding-right: 2rem;
+}
+
+.resume-content {
+  display: flex;
+}
+
+.resume-content > div {
+  width: 50%;
+  padding: 2rem;
+}
+
+.work-education {
+  text-align: left;
+}
+
+.skills {
+  text-align: right;
+  border-left: 1px dashed #BBC7B9;
+}
+
+.button {
+  padding: 1.2rem 5rem 1.2rem 5rem;
+  font-size: 1rem;
+  font-family: Quicksand, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  cursor: pointer;  
+  background-color: #BBC7B9;
+  color: #2B2B2B;
+  border: 2px solid #2B2B2B;
+}
+
+.portfolio-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin:auto;
+}
+
+.portfolio-item {
+  border: 1px solid #BBC7B9;
+  padding: 0.4rem;
+  width: 320px;
+  text-align: center;
+  margin: 0.5rem;
+}
+
+.portfolio-item > p {
+  margin: 0.5rem;
+}
+
+.portfolio-item img{
+  width: 100%;
+  height: auto;
+}
+
+.item-title {
+  border: 1px solid #BBC7B9;
+  color:#BBC7B9;
+  padding: 0.4rem;
+  font-weight: bold;
+}
+
+.item-stack {
+  color:#BBC7B9;
+}
+
+.contact {
+  background-image: url(/assets/img/greenmountains.svg);
+  background-color: #F2F2F2;
+  background-size: 100% auto;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.contact-form {
+  width: 80%;
+  margin: auto;
+}
+
+form label {
+  font-weight: bold;
+}
+form input, textarea {
+  width: 100%;
+  background-color:#FAFAFA;
+  min-height: 2rem;
+  padding: 0.2rem;
+  margin-bottom: 2rem;
+  font-family: Quicksand, Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  border: 1px solid #2B2B2B;
+}
+
+form textarea {
+  height: 10rem;
+  resize: none;
+}
+
+.button-box {
+  width: 100%;
+  text-align: right;
+}
+
+form button {
+  padding: 1.2rem 5rem 1.2rem 5rem;
+  font-size: 1rem;
+  font-family: Quicksand, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  cursor: pointer;  
+  background-color: #BBC7B9;
+  color: #2B2B2B;
+  border: 2px solid #2B2B2B;
+}
+
+footer {
+  background: #2B2B2B;
+  color: #FFFFFF;
+  padding: 1rem;
+  text-align: center;
+}
+
+footer a{
+  opacity:0.5;
+}
+
+footer a:hover{
+  opacity: 1;
+}
+
+@media only screen and (max-width: 1000px) {
+  section {
+    padding: 1rem auto 1rem auto;
+  }
+
+.about-content {
+  display: block;
+}
+
+.about-content > div {
+  width: 100%;
+  padding: 0;
+}
+
+.about-img {
+  background-size: cover;
+}
+
+.resume-content {
+  display:block;
+}
+
+.resume-content div {
+  width: 100%;
+}
+
+.skills {
+  text-align: left;
+  border-left: none;
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+  nav {
+    font-size: 0.6rem;
+    bottom: 0;
+    border-top: 1px solid #2B2B2B;
+    border-bottom: none;
+  }
+
+  .svglogo {
+    width: 183px;
+    height: 192px;
+  }
+
+  footer {
+    margin-bottom: 75px;
+  }
+
+  header {
+    margin-top: 0rem;
+  }
+
+  section {
+    margin-top: 1rem;
+  }
+  
+}
