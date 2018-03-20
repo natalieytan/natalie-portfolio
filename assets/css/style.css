@@ -63,7 +63,7 @@ nav li:hover {
 }
 
 .logo {
-  padding: 0.5rem;
+  padding: 3px 3px 3px 10px;
 }
 section {
   width: 90%;
@@ -255,7 +255,7 @@ a.portfolio-link {
   height: 400px;
   text-align: center;
   margin: 20px;
-  box-shadow: 2px 2px #FFFFFF;
+  box-shadow: 3px 3px #FFFFFF;
   cursor: pointer;
 }
 
@@ -282,7 +282,7 @@ a.portfolio-link {
 
 .portfolio-item:hover {
   border: 1px solid #70856e;
-  box-shadow: 2px 2px #F2f2f2;
+  box-shadow: 3px 3px #F2f2f2;
 }
 
 .portfolio-item:hover .portfolio-img{
@@ -407,10 +407,6 @@ footer a:hover{
 @media only screen and (max-width: 600px) {
   nav {
     font-size: 0.6rem;
-    bottom: 0;
-    border-top: 1px solid #2B2B2B;
-    border-bottom: none;
-    height: 56px;
   }
 
   nav li {
@@ -426,19 +422,11 @@ footer a:hover{
     letter-spacing: 0.4rem;
   }
   
-  .logo {
-    padding: 3px;
-  }
-
-
   .svglogo {
     width: 183px;
     height: 192px;
   }
 
-  footer {
-    margin-bottom: 56px;
-  }
 
   header {
     margin-top: 0rem;
