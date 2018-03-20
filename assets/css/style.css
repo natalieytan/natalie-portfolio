@@ -172,6 +172,18 @@ h4 {
   background-color: #F2F2F2;
 }
 
+.about-headline {
+  font-size: 1.2rem;
+  border-top: 2px solid #BBC7B9;
+  border-bottom: 2px solid #BBC7B9;
+  padding: 2rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.bold {
+  font-weight: bold;
+}
 .about-text{
   padding-right: 2rem;
 }
