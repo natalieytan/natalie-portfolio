@@ -234,6 +234,11 @@ button:hover {
   border: 2px solid #000;
 }
 
+a.portfolio-link {
+  text-decoration: none;
+  color: #2B2B2B;
+}
+
 .portfolio-content {
   display: flex;
   flex-direction: row;
@@ -243,9 +248,11 @@ button:hover {
 }
 
 .portfolio-item {
+  display: block;
   border: 1px solid #BBC7B9;
   padding: 0.4rem;
   width: 320px;
+  height: 400px;
   text-align: center;
   margin: 20px;
   box-shadow: 2px 2px #FFFFFF;
