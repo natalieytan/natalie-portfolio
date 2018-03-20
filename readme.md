@@ -11,30 +11,56 @@ design clean, elegant, load quickly,
 
 ## Design
 ### Mood
-The natural beauty which can be found within the the world around, has never failed to provide me with a sense of amazement and a feeling of serenity. As such, I drew my design inspiration from photos of the marvellous landscapes that others (and myself) managed to capture.
+The natural beauty found in nature provides me with a sense of amazement and a feeling of serenity.  Hence, I based my design inspiration from some the many breathtaking photos of marevellous landscapes that I had managed to find on pinterest.
+
+
+![pinterest landscapes](/assets/readme-img/landscapes.png "Pinterest landscape")
 
 [Pinterest Mood Board](https://www.pinterest.com.au/ballflagtree/serenity/)
 
-After creating an initial mock-up of the design, I began to find that it lacked flavour
+In addition, I had a picture from a recent trip taken in Snowdonia, which I quite liked (despite it being not quite pinterest nor pro-photographer level)
 
-### Colors
-In considering colour schemes, readability and good contrast was of high priority. Articles suggest that [black text on a light background](http://www.allaboutvision.com/cvs/irritated.htm) provides good readability, and is easy on the eyes. This concurs with my personal experience, that I tend to enjoy reading pages displaying black text on a white background.
+![Snowdonia](/assets/readme-img/snowdonia.jpg "Snowdonia")
 
-In all the colour palettes I experimented with, off-black text (#B2B2B2) on a light background (#FFFFFF / #F2F2F2) remained a constant. With this base, , I then experimented with combinations of colours found within the landscape photos.  
+In using these images as inspirations, I had to strike a fine balance between allowing the images overpowering my brand, versus completely losing the context of my inspiration. Eventually settling to use vector traces of the mountains and clouds as backgrounds for some of the page elements.
 
-There was a particularly lovely shade olive-green, from one of the photos of the mountains I had taken in Snowdonia. Using this shade in combination with my base colours, I eventually settled on on a monochromatic color scheme.
+![Textures](/assets/readme-img/textures.jpg "Textures")
+
 
 ### Fonts
-I mixed and matched, a number of different combinations of serif & sans-serif fonts. In experimenting with a number of serif fonts, I found that the regality of the serif fonts tended to lose the feel of the 'mood' I wanted to convey.
+I mixed and matched a number of different combinations of serif & sans-serif fonts. In experimenting with the serif fonts, I noted that their regality tended to lose the 'serenity' of the 'mood' I wanted to convey. 
+![Font faces](/assets/readme-img/fontfaces.png "Font faces")
+
+I eventually decided on a sans-serif font - "Quicksand", with the intention Open Sans. On testing in a browser, Quicksand worked so well as a standalone font, (simply by shifting font-casing, weights and colors to denote headings and navigational elements). I thus decided to drop open sans from the font stack altogether, contributing to a more light-weight loading experience.
+
+
+
+### Colors
+In considering colour schemes, readability and good contrast was a high priority. I came across an article suggesting that [black text on a light background](http://www.allaboutvision.com/cvs/irritated.htm) provided good readability, and was easy on the eyes. 
+
+With the colour palettes I experimented with, the base colours of a black-ish text (#B2B2B2) on a light background (#FFFFFF / #F2F2F2) remained a constant. I then experimented combining them with colours found within some of the the landscape photos.  
+
+I was drawn to a particularly lovely shade olive-green, which in combination with my base colours, made for a lovely monochromatic color scheme.
+
+![Colors](/assets/readme-img/colors.jpg "Colors")
+
+
 
 ### Inspiration
-In searching for landscape pictures on pintrest, I was fortunate to have thumbnails of websites which had a similar feel to my mood appear on my feed. These images served as inspiration They showed how a subtle colour scheme could be used to great effect. 
+In searching for landscape pictures on pintrest, I was fortunate to have thumbnails of websites which had a similar feel to my mood appear on my feed. These images served as inspiration They showed how a subtle colour scheme could be used to great effect.
 
 Some common themes of these layouts included their excellent use of whitespacing, and subtle notes of grey to break up sections. I sought to incooperate these simple, yet tasteful techniques into my design.
 
-### Wireframe
-Taking a content-and-mobile first approach, I created my wire-frames in figma. I was able to trial a few diffferent ways of breaking up the content, before settling on my final iteration.
+![Inspiration](/assets/readme-img/inspiration.png "Inspiration")
 
+### Wireframe
+I created my wireframes using figma. In prioritising the content and mobile views, I quickly realised the content I had drafted was far too verbose, and worked to summarize the information, and group them into categories which made sense.
+
+Using figma, I was also able to trial a few diffferent ways of breaking up the content, before settling on my final iteration of the design.
+
+![Wireframes](/assets/readme-img/wireframes.png "Wireframes")
+
+[Full Figma Link](https://www.figma.com/file/PX5YbCKWPLwc8yxDqeYlEb2V/Natalie's-Portfolio-Project)
 
 ### Usability Heuristics Considered
 1. Visibility of system status
@@ -44,21 +70,21 @@ Taking a content-and-mobile first approach, I created my wire-frames in figma. I
 2. Match between system and the real world
 - Standard sections that one can expect from a portfolio page (about, portfolio, resume, contact) are labelled with standard language 
 3. User control and freedom
-- Navigation bar allows user to skip to any section of the page
+- Navigation bar anchored to the page allows user to skip to any section of the page
 4. Consistency and Standards:
-- Font color for headings & body text has been kept consistent throughout the site.
+- Font color for headings & body text are been kept consistent throughout the site.
 - Buttons employ a consistent look throughout the page
 5. Error prevention
-- Contact forms have input fields set to 'required', to prevent users from submitting blank fields. Approriate input field types (e.g. 'email') also helps to validate data.
+- Contact forms have input fields set to 'required', to prevent users from submitting blank fields. 
+- Approriate input field types (e.g. 'email') also helps to validate data.
 6. Recognition rather than recall
-- Navigation links are labelled with text, as opposed to being left purely as a logo, as it is well known that very few symbols have a shared universal meaning.
+- Navigation links are labelled with text, as opposed to being left purely as a symbol, as it is well known that very few symbols have a shared universal meaning.
 8. Aesthetic and minimalist design
-- In transferring content from my draft into my design, I had to prune a lot of extraneous detail from my 'about' blurb, as well as my employment & education history.
-- I made additional information accessible via a link in my full resume, such that it was available for those who were intersted, but did not interfere much with the more relevant content.
+- I pruned extraneous detail from the main content, and made additional information accessible via a link to my full resume. In doing so, it was available for those who were interested, but did not interfere with the gist of the page.
 
 
 
-[Full Figma](https://www.figma.com/file/PX5YbCKWPLwc8yxDqeYlEb2V/Natalie's-Portfolio-Project)
+
 
 ## Code
 ### HTML / CSS
