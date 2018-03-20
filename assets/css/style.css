@@ -156,7 +156,7 @@ h4 {
 }
 
 .about-content > div {
-  width: 50%;
+  width: 60%;
 }
 
 .about-img {
@@ -272,7 +272,7 @@ h4 {
 }
 
 .contact-form {
-  width: 80%;
+  width: 50%;
   margin: auto;
 }
 
@@ -360,6 +360,10 @@ footer a:hover{
 .skills {
   text-align: left;
   border-left: none;
+}
+
+.contact-form {
+  width: 80%;
 }
 
 }
