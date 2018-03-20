@@ -249,7 +249,7 @@ a.portfolio-link {
 
 .portfolio-item {
   display: block;
-  border: 1px solid #BBC7B9;
+  border: 1px solid #8c9b8b;
   padding: 0.4rem;
   width: 320px;
   height: 400px;
@@ -273,7 +273,7 @@ a.portfolio-link {
 
 .portfolio-img{
   overflow: hidden;
-  border: 1px solid #BBC7B9;
+  border: 1px solid #576e56;
   margin: 0.4rem;
   height: 140px;
   opacity: 0.6;
@@ -281,34 +281,34 @@ a.portfolio-link {
 }
 
 .portfolio-item:hover {
-  border: 1px solid #a1b19f;
+  border: 1px solid #70856e;
   box-shadow: 2px 2px #F2f2f2;
 }
 
 .portfolio-item:hover .portfolio-img{
   opacity: 1.0;
-  border: 1px solid #a1b19f;
+  border: 1px solid #70856e;
 }
 
 .portfolio-item:hover .item-title{
-  border-color: #a1b19f;
-  color:#a1b19f;
+  border-color: #70856e;
+  color:#70856e;
 }
 
 .item-title {
-  border: 1px solid #BBC7B9;
-  color:#BBC7B9;
+  border: 1px solid #8c9b8b;
+  color:#8c9b8b;
   margin: 0.4rem;
   padding: 0.4rem;
   font-weight: bold;
 }
 
 .item-stack {
-  color:#BBC7B9;
+  color:#8c9b8b;
 }
 
 .contact {
-  background-image: url(/assets/img/greenmountains.svg);
+  background-image: url(/assets/img/greenmountains.png);
   background-color: #F2F2F2;
   background-size: 100% auto;
   background-position: bottom;

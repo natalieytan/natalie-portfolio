@@ -3,13 +3,18 @@
 
 
 ## Preface
-reflect myself at a glance
 
-design clean, elegant, load quickly, 
-
-## Contents
+## Style Guide
+Logo
+Colours
+Typoraphy
 
 ## Design
+### Logo
+In designing my logo, I somehow wanted to capitalize on the fact that my name is a palindrome (NAT TAN, and drafted several geometric logo designs based on this.
+![logos](/assets/readme-img/logos.jpg "Logos")
+
+
 ### Mood
 The natural beauty found in nature provides me with a sense of amazement and a feeling of serenity.  Hence, I based my design inspiration from some the many breathtaking photos of marevellous landscapes that I had managed to find on pinterest.
 
@@ -31,7 +36,7 @@ In using these images as inspirations, I had to strike a fine balance between al
 I mixed and matched a number of different combinations of serif & sans-serif fonts. In experimenting with the serif fonts, I noted that their regality tended to lose the 'serenity' of the 'mood' I wanted to convey. 
 ![Font faces](/assets/readme-img/fontfaces.png "Font faces")
 
-I eventually decided on a sans-serif font - "Quicksand", with the intention Open Sans. On testing in a browser, Quicksand worked so well as a standalone font, (simply by shifting font-casing, weights and colors to denote headings and navigational elements). I thus decided to drop open sans from the font stack altogether, contributing to a more light-weight loading experience.
+I eventually decided on a sans-serif font - "Quicksand", with the intention of paring it with "Open Sans". On testing in a browser, Quicksand worked so well as a standalone font; simply by shifting font-casing, weights and colors, I was able to denote headings and navigational elements. I thus decided to drop open sans from the font stack altogether, contributing to a more light-weight loading experience.
 
 
 
@@ -40,16 +45,16 @@ In considering colour schemes, readability and good contrast was a high priority
 
 With the colour palettes I experimented with, the base colours of a black-ish text (#B2B2B2) on a light background (#FFFFFF / #F2F2F2) remained a constant. I then experimented combining them with colours found within some of the the landscape photos.  
 
-I was drawn to a particularly lovely shade olive-green, which in combination with my base colours, made for a lovely monochromatic color scheme.
+I was drawn to lovely shade olive-green, which in combination with my base colours, made for a decent monochromatic color scheme.
 
 ![Colors](/assets/readme-img/colors.jpg "Colors")
 
 
 
 ### Inspiration
-In searching for landscape pictures on pintrest, I was fortunate to have thumbnails of websites which had a similar feel to my mood appear on my feed. These images served as inspiration They showed how a subtle colour scheme could be used to great effect.
+In searching for landscape pictures on pintrest, I was fortunate to have thumbnails of websites which had a similar feel to my mood, appear on my feed. These images served as inspiration as they demonstrated how a subtle colour scheme could be used to great effect.
 
-Some common themes of these layouts included their excellent use of whitespacing, and subtle notes of grey to break up sections. I sought to incooperate these simple, yet tasteful techniques into my design.
+Some common themes of these layouts included their excellent use of whitespacing and subtle notes of grey to break up sections. I sought to incooperate these simple, yet tasteful techniques into my design.
 
 ![Inspiration](/assets/readme-img/inspiration.png "Inspiration")
 
@@ -58,9 +63,10 @@ I created my wireframes using figma. In prioritising the content and mobile view
 
 Using figma, I was also able to trial a few diffferent ways of breaking up the content, before settling on my final iteration of the design.
 
+[Full Figma Link](https://www.figma.com/file/PX5YbCKWPLwc8yxDqeYlEb2V/Natalie's-Portfolio-Project)
+
 ![Wireframes](/assets/readme-img/wireframes.png "Wireframes")
 
-[Full Figma Link](https://www.figma.com/file/PX5YbCKWPLwc8yxDqeYlEb2V/Natalie's-Portfolio-Project)
 
 ### Usability Heuristics Considered
 1. Visibility of system status
@@ -82,24 +88,23 @@ Using figma, I was also able to trial a few diffferent ways of breaking up the c
 8. Aesthetic and minimalist design
 - I pruned extraneous detail from the main content, and made additional information accessible via a link to my full resume. In doing so, it was available for those who were interested, but did not interfere with the gist of the page.
 
-
-
-
-
 ## Code
 ### HTML / CSS
+As my design was fairly minimalistic, it seemed to fit nicely into HTML's box model, and coding the HTML markup was not too troublesome. Utilising CSS flexbox in combination with media-queries allowed my site to be responsive.
 
+In addition, there were some new elements I was able to get learn through coding this page, such as animating inline SVG, and including social media meta tags.
 
-## Reflections
+## Challenges
+### Writing content
+### Design 
+how could choosing font be so hard?
+### Coding
+how can Css be so inconsistent between browsers?
 
-### Challenges
+## Positives
 
-### Positives
+## Future Improvements
 
-### Changes
-
-### Future Improvements
-
-## Acknowledgement
+## Acknowledgements
 
 ## Final Product
