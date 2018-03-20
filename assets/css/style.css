@@ -214,8 +214,8 @@ h4 {
   border-left: 1px dashed #BBC7B9;
 }
 
-.button {
-  padding: 1.2rem 5rem 1.2rem 5rem;
+button {
+  padding: 1.2rem 2rem 1.2rem 2rem;
   font-size: 1rem;
   font-family: Quicksand, Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -225,6 +225,13 @@ h4 {
   color: #2B2B2B;
   border: 2px solid #2B2B2B;
   max-width: 90%;
+  box-shadow: 1px 2px #111;
+}
+
+button:hover {
+  background-color: #c7d4c4;
+  color: #000;
+  border: 2px solid #000;
 }
 
 .portfolio-content {
@@ -240,8 +247,11 @@ h4 {
   padding: 0.4rem;
   width: 320px;
   text-align: center;
-  margin: 0.5rem;
+  margin: 20px;
+  box-shadow: 2px 2px #FFFFFF;
+  cursor: pointer;
 }
+
 
 .portfolio-item > p {
   margin: 0.5rem;
@@ -250,11 +260,38 @@ h4 {
 .portfolio-item img{
   width: 100%;
   height: auto;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.portfolio-img{
+  overflow: hidden;
+  border: 1px solid #BBC7B9;
+  margin: 0.4rem;
+  height: 140px;
+  opacity: 0.6;
+  transition: 0.5s;
+}
+
+.portfolio-item:hover {
+  border: 1px solid #a1b19f;
+  box-shadow: 2px 2px #F2f2f2;
+}
+
+.portfolio-item:hover .portfolio-img{
+  opacity: 1.0;
+  border: 1px solid #a1b19f;
+}
+
+.portfolio-item:hover .item-title{
+  border-color: #a1b19f;
+  color:#a1b19f;
 }
 
 .item-title {
   border: 1px solid #BBC7B9;
   color:#BBC7B9;
+  margin: 0.4rem;
   padding: 0.4rem;
   font-weight: bold;
 }
@@ -304,18 +341,6 @@ form textarea {
   text-align: right;
 }
 
-form button {
-  padding: 1.2rem 5rem 1.2rem 5rem;
-  font-size: 1rem;
-  font-family: Quicksand, Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  letter-spacing: 0.1rem;
-  cursor: pointer;  
-  background-color: #BBC7B9;
-  color: #2B2B2B;
-  border: 2px solid #2B2B2B;
-}
-
 footer {
   background: #2B2B2B;
   color: #FFFFFF;
@@ -329,6 +354,10 @@ footer a{
 
 footer a:hover{
   opacity: 1;
+}
+
+.sm-icon {
+  margin: 5px;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -384,6 +413,10 @@ footer a:hover{
   
   nav li:hover {
     border-top: none;
+  }
+
+  .typewriter h1{
+    letter-spacing: 0.4rem;
   }
   
   .logo {
