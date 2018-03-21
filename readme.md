@@ -73,14 +73,14 @@ I was drawn to a lovely shade olive-green, which in combination with my base col
 ### Inspiration
 In searching for landscape pictures on pintrest, I was fortunate to have thumbnails of websites which had a similar feel to my mood, appear on my feed. These images served as inspiration, as they demonstrated how a subtle colour scheme could be used to great effect.
 
-Some common themes of these layouts included their excellent use of whitespacing and subtle notes of grey to break up sections. I sought to incooperate these simple, yet tasteful techniques into my design.
+Some common themes of these layouts included their excellent use of whitespacing and subtle notes of grey to break up sections. I sought to incorporate these simple, yet tasteful techniques into my design.
 
 ![Inspiration](/assets/readme-img/inspiration.png "Inspiration")
 
 ### Wireframe
 I created my wireframes using figma. In prioritising the content and mobile views, I quickly realised the content I had drafted was far too verbose, and worked hard to summarize the information, and group them into categories which made sense.
 
-Using figma, I was also able to trial a few diffferent ways of presenting the content, before settling on my final iteration of the design.
+Using figma, I was also able to trial a few different ways of presenting the content, before settling on my final iteration of the design.
 
 [Full Figma Link](https://www.figma.com/file/PX5YbCKWPLwc8yxDqeYlEb2V/Natalie's-Portfolio-Project)
 
@@ -102,7 +102,7 @@ Using figma, I was also able to trial a few diffferent ways of presenting the co
 - Buttons employ a consistent look throughout the page
 5. Error prevention
 - Contact forms have input fields set to 'required', to prevent users from submitting blank fields. 
-- Approriate input field types (e.g. 'email') also helps to validate data.
+- Appropriate input field types (e.g. 'email') also helps to validate data.
 6. Recognition rather than recall
 - Navigation links are labelled with text, as opposed to being left purely as a symbol, as it is well known that very few symbols have a shared universal meaning.
 8. Aesthetic and minimalist design
@@ -117,7 +117,7 @@ In addition, there were some new elements I was able to become familiar with thr
 
 ## Challenges
 ### Content
-I often find it a struggle to put my thoughts into words. It was even more difficult to even phathom how to write about myself in a 'marketable' way. We did an exercise within small groups, through which we we asked each other questions about ourselves. Through speaking with candour, I was better able to articulate my interests, passion and motivation and translate it into writing.
+I often find it a struggle to put my thoughts into words. It was even more difficult to even fathom how to write about myself in a 'marketable' way. We did an exercise within small groups, through which we we asked each other questions about ourselves. Through speaking with candour, I was better able to articulate my interests, passion and motivation and translate it into writing.
 
 ### Design 
 Who knew that could choosing between fonts & colors could prove such an uphill task? I discovered that to me, design is a lot like music. While I can appreciate a good song, I have never understood the full intricacies of what goes into the planning, writing and creation of it. 
@@ -133,7 +133,7 @@ Ensuring that mobile, tablet and desktop interfaces maintained a consistent desi
 
 Due to mobile having limited viewport, I found designing  the navigation-bar for it particularly tricky.
 
-Whilst ubiquitous, there has been discussion that [hamburger bars are far from ideal](https://lmjabreu.com/post/why-and-how-to-avoid-hamburger-menus/). This led me to do some research on [suitable alternatives](https://apptimize.com/blog/2015/07/the-ultimate-guide-to-the-hamburger-menu/). I chanced upon articles discussing designing for mobile, which tocuhed on the concept of keeping navigation in the ["thumb zome"](https://www.smashingmagazine.com/2016/09/the-thumb-zone-designing-for-mobile-users/).
+Whilst ubiquitous, there has been discussion that [hamburger bars are far from ideal](https://lmjabreu.com/post/why-and-how-to-avoid-hamburger-menus/). This led me to do some research on [suitable alternatives](https://apptimize.com/blog/2015/07/the-ultimate-guide-to-the-hamburger-menu/). I chanced upon articles discussing designing for mobile, which touched on the concept of keeping navigation in the ["thumb zome"](https://www.smashingmagazine.com/2016/09/the-thumb-zone-designing-for-mobile-users/).
 
 
 ![Thumb Zone](/assets/readme-img/thumbzone.png "Thumb Zone")
