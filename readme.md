@@ -1,5 +1,5 @@
 # Natalie's Portfolio 
-[http://nattan.netlify.com/](http://nattan.netlify.com/)
+[https://nattan.netlify.com/](http://nattan.netlify.com/)
 
 
 ## Preface
@@ -95,16 +95,100 @@ As my design was fairly minimalistic, it seemed to fit nicely into HTML's box mo
 In addition, there were some new elements I was able to get learn through coding this page, such as animating inline SVG, and including social media meta tags.
 
 ## Challenges
-### Writing content
+### Content
+I often find it a struggle to put my thoughts into words. It was even more difficult to even phathom how to write about myself in a 'marketable' way. We did an exercise within small groups, through which we were asked some questions about ourselves. I found that through talking about ourselves with candour to my friends, I was better able to articulate my interests, passion and motivation. 
+
 ### Design 
-how could choosing font be so hard?
+Who knew that could choosing between fonts & colors could prove such a chore? To me, design is a lot like music. While I can appreciate a good song, I have never understood the full intricacies of what goes into the planning, writing and creation of it. 
+
+I recall looking at a bunch of fonts fairly early on in the design process, with a reaction somewhat akin to this:
+```
+¯\_(ツ)_/¯
+```
+ It took a fair bit of experimentation before I eventually came to settle on my style.
+
+### User Interface
+Ensuring that mobile, tablet and desktop interfaces maintained a consistent design, whilst maximising 'user - friendliness' within in each device proved challenging.
+
+Due to mobile having limited viewport, I found designing  the navigation-bar for it particularly tricky.
+
+Whilst ubiquitous, there has been discussion that [hamburger bars are far from ideal](https://lmjabreu.com/post/why-and-how-to-avoid-hamburger-menus/). This led me to do some research on [suitable alternatives](https://apptimize.com/blog/2015/07/the-ultimate-guide-to-the-hamburger-menu/). I chanced upon articles discussing designing for mobile, which tocuhed on the concept of keeping navigation in the ["thumb zome"](https://www.smashingmagazine.com/2016/09/the-thumb-zone-designing-for-mobile-users/).
+
+
+![Thumb Zone](/assets/readme-img/thumbzone.png "Thumb Zone")
+
+Having read the "thumb zone" article, I initially designed a bottom nav-bar in mobile. However, testing it on the mobile browser led me to discover that tapping the bottom nav triggers the browser's native menu, limiting the view. This led to a full circle back to the top nav.
+
+![Bottom Nav](/assets/readme-img/bottomnav.png "Bottom Nav") ![Top Nav](/assets/readme-img/topnav.png "Top Nav")
+
 ### Coding
-how can Css be so inconsistent between browsers?
+#### Inconsistencies of HTML/CSS between Browsers / Devices
+One of the struggles I grappled with was coming to terms with how differently CSS (in particular - some of the newer attributes) could potentially display across browsers and devices. [caniuse.com](https://caniuse.com/) proved to be an invaluable resource in checking for compatibility, as it allowed me to ensure the elements I intended to implement would display correctly.
 
-## Positives
+#### 'CSS hacks' are hacky indeed.
+Working purely with CSS and HTML allowed me to have a deeper appreciation for the innate capabilities of CSS. However, I discovered as 'CSS' often displayed inconsistently across platforms, one had to be careful with the 'CSS hacks' employed.
 
-## Future Improvements
+For instance, I had intended for elements within the navigation bar to change colour based on the section of the page that was scrolled to. One of the "CSS hacks" included using `a:hover` on the sections to trigger the effect. Whilst this worked like a charm on the desktop browser, most mobiles respond to `a:hover` only when tapped, and then remains in that state until a subsequent tap.
+
+Another issue compounding this problem, was that media queries checks viewport width, rather than device type. Thus, it was not a straight forward media-query to simply check if the device responded to `a:hover` before implementing a "CSS hack".
+
+I thus opted to omit "CSS hacks" which would display inconsistently.
+
+
+### Are HTML5 semantic elements truly semantic ?
+In attempting to use HTML5 semantic elements, I found numerous conflicting resources on how to use the `<article>`, `<section>` and `<header>` tags.
+
+![Sematic 1](/assets/readme-img/semantic1.jpg "Semantic 1")
+
+![Sematic 2](/assets/readme-img/semantic2.jpg "Semantic 2")
+
+![Sematic 3](/assets/readme-img/semantic3.jpg "Semantic 3")
+
+I ended up following an [article](https://codepen.io/mi-le/post/an-overview-of-html5-semantics) which was semantic to me.
+
+### What is the best practice?
+In trying to learn and practice HTML, I tried to incorporate the "best practices". However there was a multitude of conflicting information on what was truly the best practice.
+
+Some of the conflicts I found included:
+1. Keeping css styles in-line vs. each style gets its own line.
+
+e.g.
+```
+.someDiv { background: red; padding: 2em; border: 1px solid black; }
+```
+
+vs.
+
+```
+.someDiv {
+  background: red;
+  padding: 2em;
+  border: 1px solid black;
+}
+```
+
+2.  Ems/Rems vs. Pixels
+- Argument for Ems: ems are more scalable with different browser sizes and mobile devices
+- Argument for pixels: With browser zooming, designers are defaulting to pixel based layouts
+
+3. Using CSS shorthand
+
+## Plans for Future Improvements
+* Implementing a back-end error handling & processing of forms
+    *  Deployment on netlify allows an easy set-up for form handling using netlify-forms, but allows little customisability
+* Implementing a back-end content management system to allow easy updating of portfolio.
+
+* Front-end javascript elements to optimise user experience
+    * In the repeated testing of this site, I have grown quite used to the 'light-weight' load-time and feel of static elements
+    * However it is possible to implement javascript to detect scroll position  and implement animations or colour changes based on this.
+
+* Deployment on own EC2 instance, with a custom domain
+
 
 ## Acknowledgements
+In creating this portfolio, I have my friends, teachers and family to thank. Through them, I have learnt many things. I  have learnt things ranging from how to draw with vectors to how to craft a resume. Without their love, laughs and support, this process of crafting this portfolio would not have been enjoyable.
+
 
 ## Final Product
+The final product has been deployed on [https://nattan.netlify.com/](http://nattan.netlify.com/)
+![Screencapture](/assets/readme-img/screencapture.png "Screencapture")
