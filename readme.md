@@ -1,13 +1,30 @@
 # Natalie's Portfolio 
-[https://nattan.netlify.com/](http://nattan.netlify.com/)
+## [https://nattan.netlify.com/](http://nattan.netlify.com/)
 
 
 ## Preface
+A portfolio website was a project that I had previously conceptualized working on, but somehow avoided as it involved writing about myself. However, in using this project to reflect my inspirations and implementing it only after thorough wireframing, I ultimately had a lot of fun creating it.
+
+In creating this portfolio, I wanted to reflect my skills as a developer, whilst at the same time reflecting my tastes and personality. 
+
+## Goals
+### Audience
+* Prospective Employers:  Showcase a range of my technical skills, projects, abilities and interests, which allows prospective employers to determine if I am a right fit for their company.
+* Fellow developers: I look forward to collaborating & working with other developers. The portfolio also serves as a platform to connect with fellow developers, through displaying the personable side of me, which otherwise cannot be gleaned from professional platforms like "linkedin".
+
+### Primary Goals
+* Provide concise, yet informative details about myself
+* Light-weight / Loads quickly
+* Compability across a range of devices
+
+
+### Secondary Goals
+* Elegant feel
+* Consistent look
+* Downloadable resume ties in with the portfolio's style guide
 
 ## Style Guide
-Logo
-Colours
-Typoraphy
+![Style Guide](/assets/readme-img/styleguide.png "Style Guide")
 
 ## Design
 ### Logo
@@ -69,6 +86,7 @@ Using figma, I was also able to trial a few diffferent ways of breaking up the c
 
 
 ### Usability Heuristics Considered
+![Heuristics](/assets/readme-img/menubar.png "Heuristics")
 1. Visibility of system status
 - Navigation bar is always visible, and within easy reach of the user
 - Personal brand (my logo) is clearly visible upon loading the page, and is also constantly visible within the nav bar.
