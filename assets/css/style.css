@@ -11,6 +11,7 @@ html {
     line-height: 1.5;
     font-family: Quicksand, Arial, Helvetica, sans-serif;
     color: #2B2B2B;
+    scroll-behavior: smooth;
   }
 
   *, *:before, *:after {
@@ -215,6 +216,7 @@ h4 {
 }
 
 button {
+  margin: 1.2rem;
   padding: 1.2rem 2rem 1.2rem 2rem;
   font-size: 1rem;
   font-family: Quicksand, Arial, Helvetica, sans-serif;
@@ -320,10 +322,10 @@ a.portfolio-link {
   margin: auto;
 }
 
-form label {
+label {
   font-weight: bold;
 }
-form input, textarea {
+input, textarea {
   width: 100%;
   background-color:#FAFAFA;
   min-height: 2rem;
@@ -334,7 +336,11 @@ form input, textarea {
   border: 1px solid #2B2B2B;
 }
 
-form textarea {
+input:focus, textarea:focus {
+  outline-color: #BBC7B9;
+}
+
+textarea {
   height: 10rem;
   resize: none;
 }

@@ -3,25 +3,27 @@
 
 
 ## Preface
-A portfolio website was a project that I had previously conceptualized working on, but somehow avoided as it involved writing about myself. However, in using this project to reflect my inspirations and implementing it only after thorough wireframing, I ultimately had a lot of fun creating it.
+A portfolio website has been a project that I had been meaning to work on, but have been avoiding, as it involved writing about myself. 
+
+However, in using this project to reflect my inspirations, and only carrying out the implementiation after thorough wireframing, I ultimately had a lot of fun creating it.
 
 In creating this portfolio, I wanted to reflect my skills as a developer, whilst at the same time reflecting my tastes and personality. 
 
 ## Goals
 ### Audience
-* Prospective Employers:  Showcase a range of my technical skills, projects, abilities and interests, which allows prospective employers to determine if I am a right fit for their company.
-* Fellow developers: I look forward to collaborating & working with other developers. The portfolio also serves as a platform to connect with fellow developers, through displaying the personable side of me, which otherwise cannot be gleaned from professional platforms like "linkedin".
+* Prospective Employers:  One of the aims was to showcase a range of my technical skills, projects, abilities and interests, with the hope of allowing prospective employers to determine if I am a right fit for their company.
+* Fellow developers: As I look forward to collaborating & working with other developers, this portfolio also serves as a platform to connect with fellow developers, through displaying the personable side of me, which otherwise cannot be gleaned from professional platforms such as "linkedin".
 
 ### Primary Goals
-* Provide concise, yet informative details about myself
-* Light-weight / Loads quickly
-* Compability across a range of devices
+* Provide concise, yet relevant details about myself
+* Light-weight & loads quickly
+* Compatible across a range of devices
 
 
 ### Secondary Goals
 * Elegant feel
 * Consistent look
-* Downloadable resume ties in with the portfolio's style guide
+* Downloadable resume which ties in with the portfolio's style guide
 
 ## Style Guide
 ![Style Guide](/assets/readme-img/styleguide.png "Style Guide")
@@ -33,27 +35,27 @@ In designing my logo, I somehow wanted to capitalize on the fact that my name is
 
 
 ### Mood
-The natural beauty found in nature provides me with a sense of amazement and a feeling of serenity.  Hence, I based my design inspiration from some the many breathtaking photos of marevellous landscapes that I had managed to find on pinterest.
+The natural beauty found in nature provides me with a sense of amazement and a feeling of serenity.  I decided to base my design inspiration from some the many breathtaking landscape photos, which I had managed to find on pinterest.
 
 
 ![pinterest landscapes](/assets/readme-img/landscapes.png "Pinterest landscape")
 
 [Pinterest Mood Board](https://www.pinterest.com.au/ballflagtree/serenity/)
 
-In addition, I had a picture from a recent trip taken in Snowdonia, which I quite liked (despite it being not quite pinterest nor pro-photographer level)
+I also had a photo taken of Snowdonia, taken on a recent trip, which I quite liked (despite it being not quite pinterest nor pro-photographer level).
 
 ![Snowdonia](/assets/readme-img/snowdonia.jpg "Snowdonia")
 
-In using these images as inspirations, I had to strike a fine balance between allowing the images overpowering my brand, versus completely losing the context of my inspiration. Eventually settling to use vector traces of the mountains and clouds as backgrounds for some of the page elements.
+In using these images as inspirations, I had to strike a fine balance between allowing the images to overpower my identity, versus completely losing the context of my inspiration. I manged to subtly include my inspiration, buy using vector traces of the mountains and clouds as backgrounds for some of the page elements.
 
 ![Textures](/assets/readme-img/textures.jpg "Textures")
 
 
 ### Fonts
-I mixed and matched a number of different combinations of serif & sans-serif fonts. In experimenting with the serif fonts, I noted that their regality tended to lose the 'serenity' of the 'mood' I wanted to convey. 
+I mixed and matched a number of different combinations of serif & sans-serif fonts. In experimenting with the serif fonts, I noted that their regality tended to lose the 'serenity' of the mood I intended to convey. 
 ![Font faces](/assets/readme-img/fontfaces.png "Font faces")
 
-I eventually decided on a sans-serif font - "Quicksand", with the intention of paring it with "Open Sans". On testing in a browser, Quicksand worked so well as a standalone font; simply by shifting font-casing, weights and colors, I was able to denote headings and navigational elements. I thus decided to drop open sans from the font stack altogether, contributing to a more light-weight loading experience.
+I eventually decided on a sans-serif font - "Quicksand", with the intention of paring it with "Open Sans". On testing it in a browser, I found that Quicksand worked well as a standalone font. Simply by shifting font-casing, weights and colors, I was able to denote headings and navigational elements. I thus decided to drop open sans from the font stack altogether, contributing to a more light-weight loading experience.
 
 
 
@@ -62,23 +64,23 @@ In considering colour schemes, readability and good contrast was a high priority
 
 With the colour palettes I experimented with, the base colours of a black-ish text (#B2B2B2) on a light background (#FFFFFF / #F2F2F2) remained a constant. I then experimented combining them with colours found within some of the the landscape photos.  
 
-I was drawn to lovely shade olive-green, which in combination with my base colours, made for a decent monochromatic color scheme.
+I was drawn to a lovely shade olive-green, which in combination with my base colours, made for a decent monochromatic color scheme.
 
 ![Colors](/assets/readme-img/colors.jpg "Colors")
 
 
 
 ### Inspiration
-In searching for landscape pictures on pintrest, I was fortunate to have thumbnails of websites which had a similar feel to my mood, appear on my feed. These images served as inspiration as they demonstrated how a subtle colour scheme could be used to great effect.
+In searching for landscape pictures on pintrest, I was fortunate to have thumbnails of websites which had a similar feel to my mood, appear on my feed. These images served as inspiration, as they demonstrated how a subtle colour scheme could be used to great effect.
 
 Some common themes of these layouts included their excellent use of whitespacing and subtle notes of grey to break up sections. I sought to incooperate these simple, yet tasteful techniques into my design.
 
 ![Inspiration](/assets/readme-img/inspiration.png "Inspiration")
 
 ### Wireframe
-I created my wireframes using figma. In prioritising the content and mobile views, I quickly realised the content I had drafted was far too verbose, and worked to summarize the information, and group them into categories which made sense.
+I created my wireframes using figma. In prioritising the content and mobile views, I quickly realised the content I had drafted was far too verbose, and worked hard to summarize the information, and group them into categories which made sense.
 
-Using figma, I was also able to trial a few diffferent ways of breaking up the content, before settling on my final iteration of the design.
+Using figma, I was also able to trial a few diffferent ways of presenting the content, before settling on my final iteration of the design.
 
 [Full Figma Link](https://www.figma.com/file/PX5YbCKWPLwc8yxDqeYlEb2V/Natalie's-Portfolio-Project)
 
@@ -104,20 +106,21 @@ Using figma, I was also able to trial a few diffferent ways of breaking up the c
 6. Recognition rather than recall
 - Navigation links are labelled with text, as opposed to being left purely as a symbol, as it is well known that very few symbols have a shared universal meaning.
 8. Aesthetic and minimalist design
-- I pruned extraneous detail from the main content, and made additional information accessible via a link to my full resume. In doing so, it was available for those who were interested, but did not interfere with the gist of the page.
+- I pruned extraneous detail from the main content, and made additional information accessible via a link to my full resume. 
+- In doing so, it was available for those who were interested, but did not interfere with the gist of the page.
 
 ## Code
 ### HTML / CSS
 As my design was fairly minimalistic, it seemed to fit nicely into HTML's box model, and coding the HTML markup was not too troublesome. Utilising CSS flexbox in combination with media-queries allowed my site to be responsive.
 
-In addition, there were some new elements I was able to get learn through coding this page, such as animating inline SVG, and including social media meta tags.
+In addition, there were some new elements I was able to become familiar with through coding this page - such as animating inline SVG, and utilising social media meta tags.
 
 ## Challenges
 ### Content
-I often find it a struggle to put my thoughts into words. It was even more difficult to even phathom how to write about myself in a 'marketable' way. We did an exercise within small groups, through which we were asked some questions about ourselves. I found that through talking about ourselves with candour to my friends, I was better able to articulate my interests, passion and motivation. 
+I often find it a struggle to put my thoughts into words. It was even more difficult to even phathom how to write about myself in a 'marketable' way. We did an exercise within small groups, through which we we asked each other questions about ourselves. Through speaking with candour, I was better able to articulate my interests, passion and motivation and translate it into writing.
 
 ### Design 
-Who knew that could choosing between fonts & colors could prove such a chore? To me, design is a lot like music. While I can appreciate a good song, I have never understood the full intricacies of what goes into the planning, writing and creation of it. 
+Who knew that could choosing between fonts & colors could prove such an uphill task? I discovered that to me, design is a lot like music. While I can appreciate a good song, I have never understood the full intricacies of what goes into the planning, writing and creation of it. 
 
 I recall looking at a bunch of fonts fairly early on in the design process, with a reaction somewhat akin to this:
 ```
@@ -126,7 +129,7 @@ I recall looking at a bunch of fonts fairly early on in the design process, with
  It took a fair bit of experimentation before I eventually came to settle on my style.
 
 ### User Interface
-Ensuring that mobile, tablet and desktop interfaces maintained a consistent design, whilst maximising 'user - friendliness' within in each device proved challenging.
+Ensuring that mobile, tablet and desktop interfaces maintained a consistent design, whilst maximising 'user - friendliness' with different devices proved challenging.
 
 Due to mobile having limited viewport, I found designing  the navigation-bar for it particularly tricky.
 
@@ -137,14 +140,13 @@ Whilst ubiquitous, there has been discussion that [hamburger bars are far from i
 
 Having read the "thumb zone" article, I initially designed a bottom nav-bar in mobile. However, testing it on the mobile browser led me to discover that tapping the bottom nav triggers the browser's native menu, limiting the view. This led to a full circle back to the top nav.
 
-![Bottom Nav](/assets/readme-img/bottomnav.png "Bottom Nav") ![Top Nav](/assets/readme-img/topnav.png "Top Nav")
-
+![Bottom vs Top Nav](/assets/readme-img/bottomvstop.png "Bottom vs Top Nav") 
 ### Coding
 #### Inconsistencies of HTML/CSS between Browsers / Devices
-One of the struggles I grappled with was coming to terms with how differently CSS (in particular - some of the newer attributes) could potentially display across browsers and devices. [caniuse.com](https://caniuse.com/) proved to be an invaluable resource in checking for compatibility, as it allowed me to ensure the elements I intended to implement would display correctly.
+One of the struggles I grappled with was coming to terms with, was how differently CSS (in particular - some of the newer attributes) could potentially display across browsers and devices. [caniuse.com](https://caniuse.com/) proved to be an invaluable resource in checking for compatibility, as it allowed me to ensure the elements I intended to implement would display correctly.
 
 #### 'CSS hacks' are hacky indeed.
-Working purely with CSS and HTML allowed me to have a deeper appreciation for the innate capabilities of CSS. However, I discovered as 'CSS' often displayed inconsistently across platforms, one had to be careful with the 'CSS hacks' employed.
+Working purely with CSS and HTML allowed me to have a deeper appreciation for the innate capabilities of CSS. However, I discovered  as 'CSS' often displayed inconsistently across platforms, one had to be careful with the 'CSS hacks' employed.
 
 For instance, I had intended for elements within the navigation bar to change colour based on the section of the page that was scrolled to. One of the "CSS hacks" included using `a:hover` on the sections to trigger the effect. Whilst this worked like a charm on the desktop browser, most mobiles respond to `a:hover` only when tapped, and then remains in that state until a subsequent tap.
 
@@ -189,7 +191,7 @@ vs.
 - Argument for Ems: ems are more scalable with different browser sizes and mobile devices
 - Argument for pixels: With browser zooming, designers are defaulting to pixel based layouts
 
-3. Using CSS shorthand
+3. Using CSS shorthand vs. separating attributes for readability
 
 ## Plans for Future Improvements
 * Implementing a back-end error handling & processing of forms
@@ -198,13 +200,13 @@ vs.
 
 * Front-end javascript elements to optimise user experience
     * In the repeated testing of this site, I have grown quite used to the 'light-weight' load-time and feel of static elements
-    * However it is possible to implement javascript to detect scroll position  and implement animations or colour changes based on this.
+    * However it is possible to implement javascript to detect scroll position  and implement animations or colour
 
 * Deployment on own EC2 instance, with a custom domain
 
 
 ## Acknowledgements
-In creating this portfolio, I have my friends, teachers and family to thank. Through them, I have learnt many things. I  have learnt things ranging from how to draw with vectors to how to craft a resume. Without their love, laughs and support, this process of crafting this portfolio would not have been enjoyable.
+In creating this portfolio - I have my friends, teachers and family to thank. Through them, I have learnt many things. I  have learnt things ranging from how to draw with vectors, to how to craft a resume. Without their love, laughs and support, this process of crafting this portfolio would not have been even half as enjoyable.
 
 
 ## Final Product
