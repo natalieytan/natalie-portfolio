@@ -29,7 +29,7 @@ In creating this portfolio, I wanted to reflect my skills as a developer, whilst
 ## Design
 ### Logo
 In designing my logo, I somehow wanted to capitalize on the fact that my name is a palindrome (NAT TAN, and drafted several geometric logo designs based on this.
-![logos](/assets/readme-img/logos.jpg "Logos")
+![logos](/assets/readme-img/logo.jpg "Logos")
 
 
 ### Mood
