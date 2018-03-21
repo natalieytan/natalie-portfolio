@@ -5,7 +5,7 @@
 ## Preface
 A portfolio website has been a project that I had been meaning to work on, but have been avoiding, as it involved writing about myself. 
 
-However, in using this project to reflect my inspirations, and only carrying out the implementiation after thorough wireframing, I ultimately had a lot of fun creating it.
+However, in using this project to reflect my inspirations, and only carrying out the implementation after thorough wireframing, I ultimately had a lot of fun creating it.
 
 In creating this portfolio, I wanted to reflect my skills as a developer, whilst at the same time reflecting my tastes and personality. 
 
@@ -30,32 +30,36 @@ In creating this portfolio, I wanted to reflect my skills as a developer, whilst
 
 ## Design
 ### Logo
-In designing my logo, I somehow wanted to capitalize on the fact that my name is a palindrome (NAT TAN, and drafted several geometric logo designs based on this.
+In designing my logo, I somehow wanted to capitalise on the fact that my name is a palindrome (NAT TAN, and drafted several geometric logo designs based on this.
+
 ![logos](/assets/readme-img/logo.jpg "Logos")
 
 
 ### Mood
-The natural beauty found in nature provides me with a sense of amazement and a feeling of serenity.  I decided to base my design inspiration from some the many breathtaking landscape photos, which I had managed to find on pinterest.
+The natural beauty found in nature provides me with a sense of amazement and a feeling of serenity.  I decided to base my design inspiration from some the many breathtaking landscape photos, which I had managed to find on Pinterest.
+
 
 
 ![pinterest landscapes](/assets/readme-img/landscapes.png "Pinterest landscape")
 
 [Pinterest Mood Board](https://www.pinterest.com.au/ballflagtree/serenity/)
 
-I also had a photo taken of Snowdonia, taken on a recent trip, which I quite liked (despite it being not quite pinterest nor pro-photographer level).
+I also had a photo taken of Snowdonia, taken on a recent trip, which I quite liked (despite it being not quite Pinterest nor pro-photographer level).
 
 ![Snowdonia](/assets/readme-img/snowdonia.jpg "Snowdonia")
 
-In using these images as inspirations, I had to strike a fine balance between allowing the images to overpower my identity, versus completely losing the context of my inspiration. I manged to subtly include my inspiration, buy using vector traces of the mountains and clouds as backgrounds for some of the page elements.
+In using these images as inspirations, I had to strike a fine balance between allowing the images to overpower my identity, versus completely losing the context of my inspiration. I managed to subtly include my inspiration, buy using vector traces of the mountains and clouds as backgrounds for some of the page elements.
+
 
 ![Textures](/assets/readme-img/textures.jpg "Textures")
 
 
 ### Fonts
 I mixed and matched a number of different combinations of serif & sans-serif fonts. In experimenting with the serif fonts, I noted that their regality tended to lose the 'serenity' of the mood I intended to convey. 
+
 ![Font faces](/assets/readme-img/fontfaces.png "Font faces")
 
-I eventually decided on a sans-serif font - "Quicksand", with the intention of paring it with "Open Sans". On testing it in a browser, I found that Quicksand worked well as a standalone font. Simply by shifting font-casing, weights and colors, I was able to denote headings and navigational elements. I thus decided to drop open sans from the font stack altogether, contributing to a more light-weight loading experience.
+I eventually decided on a sans-serif font - "Quicksand", with the intention of paring it with "Open Sans". On testing it in a browser, I found that Quicksand worked well as a standalone font. Simply by shifting font-casing, weights and colours, I was able to denote headings and navigational elements. I thus decided to drop open sans from the font stack altogether, contributing to a more light-weight loading experience.
 
 
 
@@ -71,14 +75,14 @@ I was drawn to a lovely shade olive-green, which in combination with my base col
 
 
 ### Inspiration
-In searching for landscape pictures on pintrest, I was fortunate to have thumbnails of websites which had a similar feel to my mood, appear on my feed. These images served as inspiration, as they demonstrated how a subtle colour scheme could be used to great effect.
+In searching for landscape pictures on Pinterest, I was fortunate to have thumbnails of websites which had a similar feel to my mood, appear on my feed. These images served as inspiration, as they demonstrated how a subtle colour scheme could be used to great effect.
 
 Some common themes of these layouts included their excellent use of whitespacing and subtle notes of grey to break up sections. I sought to incorporate these simple, yet tasteful techniques into my design.
 
 ![Inspiration](/assets/readme-img/inspiration.png "Inspiration")
 
 ### Wireframe
-I created my wireframes using figma. In prioritising the content and mobile views, I quickly realised the content I had drafted was far too verbose, and worked hard to summarize the information, and group them into categories which made sense.
+I created my wireframes using figma. In prioritising the content and mobile views, I quickly realised the content I had drafted was far too verbose, and worked hard to summarise the information, and group them into categories which made sense.
 
 Using figma, I was also able to trial a few different ways of presenting the content, before settling on my final iteration of the design.
 
@@ -98,7 +102,7 @@ Using figma, I was also able to trial a few different ways of presenting the con
 3. User control and freedom
 - Navigation bar anchored to the page allows user to skip to any section of the page
 4. Consistency and Standards:
-- Font color for headings & body text are been kept consistent throughout the site.
+- Font colour for headings & body text are been kept consistent throughout the site.
 - Buttons employ a consistent look throughout the page
 5. Error prevention
 - Contact forms have input fields set to 'required', to prevent users from submitting blank fields. 
@@ -211,4 +215,5 @@ In creating this portfolio - I have my friends, teachers and family to thank. Th
 
 ## Final Product
 The final product has been deployed on [https://nattan.netlify.com/](http://nattan.netlify.com/)
+
 ![Screencapture](/assets/readme-img/screencapture.png "Screencapture")
